@@ -1,0 +1,17 @@
+void main(void)
+{
+    int a;
+    int s;
+    a = 5;
+    s = 0;
+    if (a > 1)
+    {
+        s = 1;
+        if (s == 1)
+        {
+            s = 2;
+            output(s);
+        }
+    }
+    return ;
+}

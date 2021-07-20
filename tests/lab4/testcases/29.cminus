@@ -1,0 +1,12 @@
+void main(void) {
+  int a;
+  a = 3;
+  output(3);
+  {
+    int a;
+    a = 11;
+    output(a);
+  }
+  output(a);
+  return;
+}

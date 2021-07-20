@@ -1,0 +1,19 @@
+void g(int b[])
+{
+    output(b[3]);
+    return;
+}
+
+void f(int c[])
+{
+    output(c[3]);
+    g(c);
+    return;
+}
+void main(void)
+{
+    int a[10];
+    a[3] = 1024;
+    f(a);
+    return;
+}

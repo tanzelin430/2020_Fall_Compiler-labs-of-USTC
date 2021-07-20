@@ -1,0 +1,6 @@
+void main(void) {
+  int a[10];
+  a[3] = 1234;
+  output(a[3]);
+  return;
+}

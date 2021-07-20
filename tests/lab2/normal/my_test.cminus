@@ -1,0 +1,8 @@
+int a;
+int cmp(int a, int b)
+{
+	int c;
+	c = a/****
+do not care about this*/*/**/b;
+	return c;
+}

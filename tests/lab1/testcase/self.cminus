@@ -1,0 +1,6 @@
+int main(int argc, char const *argv[])
+{
+	int _a;
+	char ___ok;
+	return 0;
+}

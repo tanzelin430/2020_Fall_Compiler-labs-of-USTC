@@ -1,0 +1,8 @@
+int main(void){
+    int a[3];
+    a[0] = 9;
+    a[1.8] = 2;
+    a[2] = a[0]/a[1];
+    output(a[2]);
+    return a[0];
+}

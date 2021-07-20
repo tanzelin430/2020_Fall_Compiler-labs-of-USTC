@@ -1,0 +1,16 @@
+void main(void) {
+
+  if (2 > 1) {
+    output(42);
+  } else
+    output(1234);
+
+  output(24);
+
+  if (2 < 1)
+    output(42);
+  else {
+    output(1234);
+  }
+  return;
+}

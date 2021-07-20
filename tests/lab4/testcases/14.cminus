@@ -1,0 +1,6 @@
+int main(void)
+{
+    int temp[1];
+    temp[0]=1;
+    return 0;
+}

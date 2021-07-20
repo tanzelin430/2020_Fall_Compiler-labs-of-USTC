@@ -1,0 +1,9 @@
+int test(void) {
+  int a[10];
+  a[2-3];
+  return 2;
+}
+void main(void) {
+  test();
+  return;
+}

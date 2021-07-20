@@ -1,0 +1,8 @@
+void fun(void){
+	output(1);
+}
+
+void main(void){
+	fun();
+}
+

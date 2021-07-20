@@ -1,0 +1,7 @@
+void main(void){
+    int a[10];
+    a[1] = 2;
+    a[2] = 5;
+    a[3] = a[a[1]];
+    output(a[3]);
+}

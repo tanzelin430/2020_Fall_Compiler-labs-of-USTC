@@ -1,0 +1,9 @@
+void main(void) {
+  int i;
+  i = 10;
+  while (i) {
+    output(i);
+    i = i - 1;
+  }
+  return;
+}

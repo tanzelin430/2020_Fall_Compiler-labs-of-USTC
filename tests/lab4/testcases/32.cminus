@@ -1,0 +1,15 @@
+int main(void){
+  int a;
+  if(1){
+    if(0){
+      a =2;
+    }
+    else{
+      a = 6;
+    }
+    a = a + 1;
+  }
+  else{
+    a =8;
+  }
+}

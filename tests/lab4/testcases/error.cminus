@@ -1,0 +1,14 @@
+void test(void)
+{
+    int a[10];
+    a[2 - 3];
+    return;
+}
+void main(void)
+{
+    int a;
+    a = 2-4;
+    output(a);
+    test();
+    return;
+}

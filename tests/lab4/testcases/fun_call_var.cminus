@@ -1,0 +1,13 @@
+void test(int a)
+{
+    output(a);
+    return;
+}
+
+void main(void)
+{
+    int a;
+    a = 10;
+    test(a);
+    return;
+}

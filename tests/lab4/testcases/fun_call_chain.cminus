@@ -1,0 +1,11 @@
+int addone(int a)
+{
+    return a + 1;
+}
+void main(void)
+{
+    int result;
+    result = addone(addone(addone(addone(1230))));
+    output(result);
+    return;
+}

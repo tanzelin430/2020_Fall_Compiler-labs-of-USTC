@@ -1,0 +1,30 @@
+int x[1];
+
+int call(int x[]){
+    output(x[0]);
+}
+
+
+void main(void)
+{
+    int i;
+    i = 0;
+    if (1)
+    {
+        while(i > 3){
+            i = 1;
+            return;
+            i = 2;
+        }
+        i = 3;
+        return;
+    }
+    else
+    {
+        i = 4;
+        return;
+    }
+    x[0] = i;
+    call(x);
+    return;
+}

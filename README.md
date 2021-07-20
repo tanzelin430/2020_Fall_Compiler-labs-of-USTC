@@ -1,9 +1,28 @@
-### 2020_Fall_Compiler-labs-of-USTC
-# These are the compiler labs of University of Science and Technology of China,2020 fall semester.
-本实验由：中国科学技术大学计算机系：吕瑞，谭泽霖；中国科学技术大学少年班学院计算机方向：艾语晨 共同完成
+# 实验说明
+请fork此`repo`到自己的仓库下，随后在自己的仓库中完成实验，请确保自己的`repo`为`Private`。
 
-本实验通过了助教2020年秋季课程的所有测试样例，拿到了满分
-
-感谢中国科学技术大学李诚老师，以及2020秋季编译原理全体助教对本实验的付出，若想将这个实验作为教学目的，请联系中科大李诚老师，chengli7@ustc.edu.cn
-
-实验描述请进入`documentation`文件夹查看，实验报告请进入`report`文件夹查看
+### 目前已布置的实验:
+*   [lab1](./Documentations/lab1/README.md)
+    *   DDL : 2020/10/13, 23:59:59
+*   [lab2](./Documentations/lab2/README.md)
+    *   DDL : 2020/10/30, 23:59:59
+*   [lab3](./Documentations/lab3/README.md)
+    *   DDL : 2020/11/16, 23:59:59
+*   [lab4](./Documentations/lab4/README.md)
+    *   DDL : 2020/12/07, 23:59:59
+*   [lab5](./Documentations/lab5/README.md)
+    *   DDL-Phase1 :2020/12/21 23:59:59 (北京标准时间，UTC+8)  
+    *   DDL-Phase2 :2021/01/04 23:59:59 (北京标准时间，UTC+8) 
+### FAQ: How to merge upstream remote branches
+In brief, you need another alias for upstream repository (we assume you are now in your local copy of forked repository on Gitlab):
+```
+(shell) $ git remote add upstream http://222.195.68.197/staff/2020fall-compiler_cminus.git
+```
+Then try to merge remote commits to your local repository:
+```
+(shell) $ git pull upstream master
+```
+Then synchronize changes to your forked remote repository:
+```
+(shell) $ git push origin master
+```

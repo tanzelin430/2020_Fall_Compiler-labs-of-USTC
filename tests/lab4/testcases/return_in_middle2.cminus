@@ -1,0 +1,14 @@
+void main(void)
+{
+    int i;
+    i = 10;
+    while (i > 0)
+    {
+        output(i);
+        return;
+        i = i + 1;
+        output(i);
+    }
+    output(4);
+    return;
+}

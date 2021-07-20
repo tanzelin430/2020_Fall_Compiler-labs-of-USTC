@@ -1,0 +1,34 @@
+void fun (int u[], int a, float b)
+{
+	u[b+a*3]=6;
+	if(b+a*3>4){
+		output(u[4]);
+		return;
+	}
+	if(b+a*3==11){
+		int d;
+		d = u[1]/u[2];
+		output(d);
+	}
+}
+
+void main(void){
+	int a[12];
+	int b;
+	int c;
+	b = 0;
+	c = 0;
+	while(1){
+		if(b == 4){
+			return;
+		}
+		else{
+			c = 0;
+			while(c<3){
+				fun(a, b, c);
+				c = c + 1;
+			}
+			b = b + 1;
+		}
+	}
+}
